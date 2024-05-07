@@ -1,0 +1,93 @@
+{
+  "title": "The Case of the Missing Child",
+  "scenario_style": "Style 2",
+  "scenarios": [
+    {
+      "title": "The Runaway Teen",
+      "background": "A teenage boy named David has disappeared from his home under mysterious circumstances. His parents are worried sick and suspect he might have run away. However, evidence suggests that David might have fallen victim to human trafficking.",
+      "zoom_instructions": "Divide the participants into teams of detectives. Assign each team a designated breakout room on Zoom. Instruct each team to appoint a team leader who will share their screen and communicate with the facilitator."
+    },
+    {
+      "title": "The Foreign Exchange Student",
+      "background": "A foreign exchange student named Maria has gone missing shortly after arriving in the country. She was last seen leaving her host family's house to meet someone she met online. The investigation reveals a complex web of international trafficking connections.",
+      "zoom_instructions": "Similar to Scenario 2, divide the participants into teams and assign breakout rooms. Encourage teams to discuss and analyze the evidence together. Remind teams to collaborate and communicate effectively with each other and with the facilitator."
+    },
+    {
+      "title": "The Homeless Youth",
+      "background": "A homeless youth named James has vanished from the streets without a trace. Initial inquiries suggest that he might have been lured into human trafficking due to his vulnerable situation. The investigation leads to a network preying on marginalized individuals.",
+      "zoom_instructions": "Follow the same setup as with Scenarios 2 and 3. Emphasize the importance of empathy and understanding the unique challenges faced by homeless individuals in the context of human trafficking."
+    }
+  ],
+  "general_zoom_instructions": {
+    "introduction": "Start the Zoom meeting with an introduction to the game and its objectives. Briefly explain the scenario and the role of the participants as detectives.",
+    "breakout_rooms": "Assign participants to breakout rooms based on the scenario they will be investigating. Remind participants to collaborate effectively within their teams and communicate any findings or suspicions with the facilitator.",
+    "investigation_phase": "Provide participants with the necessary clues and information to begin their investigation. Encourage teams to analyze the evidence, conduct interviews, and explore all possible leads.",
+    "discussion_decision_making": "Facilitate discussions within each team to brainstorm theories and strategies for solving the case. Encourage critical thinking and reasoning based on the clues provided.",
+    "final_showdown": "Reconvene all participants in the main Zoom room after the investigation phase. Each team presents their findings, theories, and suspicions to the rest of the group. Lead a discussion to evaluate the evidence and reach a consensus on the identity of the trafficker.",
+    "conclusion": "Announce the correct solution to the mystery and discuss the key takeaways from the game. Highlight the importance of awareness, collaboration, and vigilance in combating human trafficking in real life."
+  },
+  "additional_scenarios": [
+    {
+      "title": "The Stepfather's Secret",
+      "background": "Investigate Sarah's family dynamics and uncover any secrets that may lead to her whereabouts."
+    },
+    {
+      "title": "The Best Friend's Older Brother",
+      "background": "Sarah's best friend's older brother has a history of manipulating vulnerable individuals for personal gain. Investigate his connections and uncover any involvement in Sarah's disappearance."
+    }
+  ],
+  "clues": {
+    "scenario_1": [
+      "You find suspicious messages from someone named 'Alex' indicating grooming behavior.",
+      "Sarah has been communicating with multiple people posing as teenagers on social media."
+    ],
+    "scenario_2": [
+      "Sarah vanished shortly after arriving in the country as a foreign exchange student.",
+      "She was last seen leaving her host family's house to meet someone she met online."
+    ],
+    "scenario_3": [
+      "Sarah was living on the streets as a homeless youth before her disappearance.",
+      "She may have been targeted by traffickers preying on marginalized individuals."
+    ],
+    "additional_scenario_1": [
+      "Sarah's stepfather has a history of domestic violence and abusive behavior.",
+      "The family is experiencing financial strain, potentially motivating the stepfather to exploit Sarah."
+    ],
+    "additional_scenario_2": [
+      "Sarah's best friend's older brother has a history of manipulating vulnerable individuals for personal gain.",
+      "Investigate his connections and uncover any involvement in Sarah's disappearance."
+    ]
+  },
+  "suspects": {
+    "scenario_1": [
+      {
+        "name": "Alex",
+        "description": "Investigate Alex's online activity and interrogate him to uncover his connection to Sarah's disappearance."
+      }
+    ],
+    "scenario_2": [
+      {
+        "name": "Maria's Host Family",
+        "description": "Investigate the host family's background and search for any connections to human trafficking networks."
+      }
+    ],
+    "scenario_3": [
+      {
+        "name": "James's Fellow Homeless Individuals",
+        "description": "Investigate the homeless community and interrogate individuals who may have information about Sarah's whereabouts."
+      }
+    ],
+    "additional_scenario_1": [
+      {
+        "name": "Sarah's Stepfather",
+        "description": "Investigate the stepfather's background and search for any evidence linking him to Sarah's disappearance."
+      }
+    ],
+    "additional_scenario_2": [
+      {
+        "name": "Best Friend's Older Brother",
+        "description": "Investigate the best friend's older brother's connections and uncover any involvement in Sarah's disappearance."
+      }
+    ]
+  }
+}
