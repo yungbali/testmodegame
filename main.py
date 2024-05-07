@@ -35,22 +35,23 @@ with st.form("Introduction"):
 
 # Scenario section
 with st.form("Scenario"):
-    st.subheader("Scenarios:")
-    for scenario in master_data["scenarios"]:
-        display_scenario(scenario)
-    st.subheader("Additional Scenarios:")
-    for scenario in master_data["additional_scenarios"]:
-        display_scenario(scenario)
+    st.subheader("Choose a Scenario:")
+    selected_scenario = st.radio("", [scenario["title"] for scenario in master_data["scenarios"]])
+    selected_scenario_index = [scenario["title"] for scenario in master_data["scenarios"]].index(selected_scenario)
+    display_scenario(master_data["scenarios"][selected_scenario_index])
     st.form_submit_button("Continue Investigation")
 
 # Clue section
 with st.form("Clues"):
     st.subheader("Clues:")
-    display_clues(master_data["clues"])
+    selected_clues = master_data["clues"]
+    display_clues(selected_clues)
     st.form_submit_button("Analyze Clues")
 
 # Suspect section
 with st.form("Suspects"):
     st.subheader("Suspects:")
-    display_suspects(master_data["suspects"])
+    selected_suspects = master_data["suspects"]
+    display_suspects(selected_suspects)
     st.form_submit_button("Interrogate Suspects")
+
