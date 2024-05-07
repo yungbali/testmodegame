@@ -1,5 +1,9 @@
 import streamlit as st
 import json
+import openai
+
+# Set up OpenAI API key
+openai.api_key = "sk-proj-RYmd9vpLkMziDIrWlJIzT3BlbkFJODK1x5uNETzsUMWw1jzk"
 
 # Load the master file
 with open("master_file.json", "r") as file:
@@ -53,5 +57,15 @@ with st.form("Suspects"):
     st.subheader("Suspects:")
     selected_suspects = master_data["suspects"]
     display_suspects(selected_suspects)
+    selected_suspect = st.selectbox("Select a Suspect:", [suspect["name"] for suspect in selected_suspects["openai"]])
+    if selected_suspect == "OpenAI":
+        st.subheader("Interrogate OpenAI:")
+        question = st.text_input("Ask a question:")
+        if st.button("Ask"):
+            response = openai.Completion.create(
+                engine="text-davinci-002",
+                prompt=question,
+                max_tokens=50
+            )
+            st.write(response.choices[0].text.strip())
     st.form_submit_button("Interrogate Suspects")
-
